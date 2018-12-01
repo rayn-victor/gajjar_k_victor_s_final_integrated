@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<meta charset="UTF-8">
+<title>ComicStans</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+    <div id="topBar"></div>
+    <div id="siteContainer">
+        <h1 class="hidden">ComicStans</h1>
+        <header class="mainHeader">
+            <div class="logo box">
+                <img src="images/logo.png" alt="website logo" id="logo" width="285" height="140">
+            </div><!--end logo-->
+            <nav class="mainNav box">
+                <h2 class="hidden">Main navigation</h2>
+                <ul id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="featured.html">Featured</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="contactpage">     
+
+        <div class="form">
+        <h2>Contact</h2>
+        <p>Inquiries? Suggestions? Get in touch with us!</p>
+        <h3 class="hidden">Contact Form</h3>
+            <form method="post" action="form.php">
+                <label>Name</label>   
+                <input id="inputBox" type="text" placeholder="John Doe">
+                <br>
+                <label>Email</label>               
+                <input id="emailBox" type="email" required placeholder=" johndoe@gmail.com">
+                <br>
+                <label id="messageBox">Leave a message</label> <textarea id="inputBoxMessage" cols="32" rows="6" placeholder="hi...can you send me comic suggestions?"></textarea>
+                <br>
+                <label id="testBox">What is 2 + 3 =</label>
+                <input id="inputBoxTest" type="number" placeholder="to make sure you're not Ultron">
+                <br>
+                <input type="submit" value="Submit" class="submitbutton">
+            </form>
+        </div>     
+        <div class="content2">
+            <h3>Comic stores near you...</h3>
+            <p>Use our code <span class="code"> #MAGNETOWASRIGHT </span>to get 25% off any merch from your nearest comic store.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.094422930103!2d-81.24811654903587!3d42.976284579048006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef218b07d19b1%3A0xeb965c9ed6763a5d!2s14+Richmond+St%2C+London%2C+ON!5e0!3m2!1sen!2sca!4v1543540425360" width="350" height="300" allowfullscreen></iframe>
+        </div>           
+        </section>
+
+        <footer id="mainFooter">
+            <div class="footerNav">
+                <h2 class="hidden">Footer navigation</h2>
+                <ul >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="featured.html">Featured</a></li>
+                    <li><a href="#.html">Community</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="socialMedia"> 
+            <div id="ssICON">
+                    <h2 class="hidden">Social Media</h2>
+                
+                <a href="https://twitter.com/"><img src="images/twitter_icon.png" width="50" height="50" alt="twitter-icon"></a>
+                <a href="https://www.facebook.com/"><img src="images/facebook_icon.png" width="50" height="50" alt="facebook-icon"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube_icon.png" width="50" height="50" alt="youtube-icon"></a>
+            </div>
+            <div id="copyRight">
+                <p>ComicStans © Copyright 2018</p>
+            </div>
+            </div>
+        </footer>
+        
+    </div>
+<script src="js/main.js"></script>    
+</body>
+</html>
